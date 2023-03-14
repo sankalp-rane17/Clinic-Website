@@ -1,0 +1,515 @@
+*{
+  margin: 0;
+  border: 0;
+  background-color:white;
+}
+.main_nav{
+  display: flex;
+  text-decoration: none;
+  background-color: rgb(84, 172, 212);
+  padding-bottom: 5px;
+  padding-top:5px ;
+
+}
+.main_nav ul{
+  display: flex;
+  
+  padding-left: 810px;
+  text-decoration: none;
+  background-color: black;
+  background-color: rgb(84, 172, 212);
+  
+  
+}
+.main_nav ul li{
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 19px;
+  padding: 25px;
+  background-color: rgb(84, 172, 212);
+  color: aliceblue;
+}
+.main_nav ul li a{
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 19px;
+  padding: 4px;
+  background-color: rgb(84, 172, 212);
+  color: aliceblue;
+}
+.slideshow-container {
+  padding-left: 80px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  
+  
+  max-width:3000px;
+  max-height: 3000px;
+
+
+  display: inline-flex;
+}
+
+
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+.name{
+  font-size: 25px;
+  padding-right: 100px;
+  padding-top: 0px;
+  text-align: center;
+  justify-content: center;
+  
+}
+.reviews{
+  text-align: center;
+  background-color: rgb(84, 172, 212);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.reviews h1{
+  background-color: rgb(84, 172, 212);
+  color: white;
+}
+.reviewp{
+  padding-top: 45px;
+  padding-bottom: 30px;
+  text-align: center;
+  background-color: rgb(97, 114, 26);
+  font-size: 30px;
+  color:#f2f2f2;
+}
+.reviewp p{
+  background-color: rgb(97, 114, 26);
+}
+.card_main{
+  padding-top: 40px;
+  display: flex;
+  padding-left: 230px;
+  padding-bottom: 40px;
+  background-color: rgb(97, 114, 26);
+  
+}
+.card {
+  /* Add shadows to create the "card" effect */
+  max-width: 300px;
+  box-shadow:black;
+  border-color: black;
+  transition: 0.3s;
+  display: flex;
+  padding-right: 100px;
+  background-color: rgb(97, 114, 26);
+  padding-bottom: 50px;
+ 
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+  border-color: black;
+  background-color:  rgb(84, 172, 212);
+  width: 300px;
+  color: #f2f2f2;
+}
+.container h2{
+  background-color:  rgb(84, 172, 212);
+}
+.container h2 b{
+  background-color: rgb(84, 172, 212);
+}
+.container p{
+  padding-top: 10px;
+  font-size: 18px;
+  background-color:  rgb(84, 172, 212);
+}
+.Doctors{
+  text-align: center;
+  background-color: rgb(84, 172, 212);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  
+}
+.doctor{
+  display: flex;
+  padding-left: 100px;
+  padding-bottom: 80px;
+  background-color: rgb(231, 174, 69);
+  
+}
+.info{
+  width: 500px;
+  padding-top: 80px;
+  padding-left: 150px;
+  background-color: rgb(231, 174, 69);
+  
+}
+.Doctors h1{
+  background-color: rgb(84, 172, 212);
+  color: white;
+}
+
+.imag{
+  background-color: rgb(231, 174, 69);
+  
+  padding-top: 80px;
+  padding-left: 150px;
+
+}
+.info h2{
+  background-color: rgb(231, 174, 69);
+  
+}
+.imag img{
+  border-radius: 10px;
+  height: 400px;
+  width: 400px;
+}
+.info p{
+  background-color: rgb(231, 174, 69);
+  
+  padding-top: 10px;
+  font-size: 18px;
+}
+.Inquering{
+  text-align: center;
+  background-color: rgb(84, 172, 212);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  
+}
+.Inquering h1{
+  background-color: rgb(84, 172, 212);
+  color: white;
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.form {
+  padding-left: 100px;
+  width: 500px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+ padding-top: 100px;
+ padding-right: 100px;
+ padding-bottom: 100px;
+ 
+}
+.Form{
+  
+  display: flex;
+}
+form h1{
+  background-color: #f2f2f2;
+
+}
+.contact{
+  text-align: center;
+  background-color: rgb(84, 172, 212);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  
+}
+.contact h1{
+  background-color: rgb(84, 172, 212);
+  color: white;
+}
+.timing{
+  padding-top: 70px;
+  padding-right: 250px;
+  padding-left: 150px;
+}
+.timing1{
+  
+  padding-top: 50px;
+  padding-right: 250px;
+  padding-left: 150px;
+}
+.fname{
+  background-color: #f2f2f2;
+}
+.email{
+  background-color: #f2f2f2;
+}
+.time2{
+  background-color: #f2f2f2;
+}
+.phome{
+  background-color: #f2f2f2;
+}
+form{
+  background-color: #f2f2f2;
+}
+.location{
+  display: flex;
+  background-color: rgb(56, 35, 165);
+}
+.loc{
+  background-color: rgb(56, 35, 165);
+  padding-top: 100px;
+  padding-left: 200px;
+  padding-right: 150px;
+}
+.Address h2{
+  background-color: rgb(56, 35, 165);
+  padding-bottom: 15px;
+  color: rgb(248, 7, 7);
+}
+.Address p{
+  background-color: rgb(56, 35, 165);
+  font-size: 20px;
+  color: aliceblue;
+}
+.Phone h2{
+  background-color: rgb(56, 35, 165);
+  padding-bottom: 15px;
+  color: rgb(248, 7, 7);
+
+}
+.Phone p{
+  background-color: rgb(56, 35, 165);
+  font-size: 20px;
+  color: aliceblue;
+}
+.Address{
+  padding-bottom: 50px;
+  background-color: rgb(56, 35, 165);
+}
+.inq h2{
+  background-color: rgb(56, 35, 165);
+  color: rgb(234, 255, 0);
+
+}
+.inq{
+  background-color: rgb(56, 35, 165);
+  padding-bottom: 50px;
+}
+.map{
+  
+  padding-top: 50px;
+  background-color: rgb(56, 35, 165);
+  padding-bottom: 50px;
+}
+.mapimg{
+  width: 700px;
+  height: 400px;
+}
+.alert{
+  width: 100%;
+  background: #45a049;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 18px;
+  display: none;
+
+}
+@media only screen and (max-width:700px) {
+  .main_nav{
+    padding-left: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  .main_nav ul{
+    padding-left: 1px;
+  }
+  .main_nav ul li{
+    padding: 8px;
+    font-size: 14px;
+  }
+  .main_nav ul li a{
+    padding: 3px;
+    font-size: 12px;
+  }
+  .slideshow-container{
+    flex-direction: column;
+    padding-left: 29px;
+    padding-right: 23px;
+    padding-top: 40px;
+  }
+  .name{
+    padding-left: 37px;
+    padding-top: 9px;
+    padding-bottom: 36px;
+    padding-right: 39px;
+  }
+  .name img{
+    width: 100px;
+
+  }
+  .reviews{
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  .reviews h1{
+    font-size: 30px;
+  }
+  .card_main{
+    flex-direction: column;
+    padding-left: 45px;
+   
+  }
+  .card{
+    padding-right: 45px;
+    padding-bottom: 20px;
+  }
+  .Doctors{
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  .Doctors h1{
+    font-size: 30px;
+  }
+  .doctor{
+    padding-left: 0px;
+    flex-direction: column;
+  }
+  .imag{
+    padding-left: 38px;
+    padding-top: 38px;
+  }
+  .imag img{
+    width: 300px;
+    height: 300px;
+
+  }
+  .info{
+    padding-top: 49px;
+    padding-left: 36px;
+    width: 322px;
+  }
+  .info h2{
+    font-size: 20px;
+  }
+  .info p{
+    font-size: 15px;
+  }
+  .Inquering h1{
+    font-size: 30px;
+  }
+  .Form{
+    flex-direction: column;
+  }
+  .timing{
+    padding-left: 0px;
+    padding-top: 50px;
+  }
+  .timing img{
+    width: 385px;
+  }
+  .timing1{
+    padding-left: 0px;
+    padding-top: 50px;
+  }
+  .timing1 img{
+    width: 375px;
+  }
+  .form{
+    padding-left:40px ;
+    padding-top: 35px;
+    width: 233px;
+  }
+  .form h1{
+    padding-left: 70px;
+    font-size: 20px;
+  }
+  input[type=text]{
+    width: 130%;
+  }
+  input[type=text],select{
+    width: 130%;
+  }
+  .contact{
+    padding-top: 12px;
+    padding-bottom: 12px;
+
+  }
+  .contact h1{
+    font-size: 30px;
+  }
+  .location{
+    flex-direction: column;
+  }
+  .loc{
+    padding-top: 71px;
+    padding-left: 27px;
+    padding-right: 20px;
+  }
+  .inq h2{
+    font-size: 20px;
+
+  }
+  .Address p{
+    font-size: 16px;
+  }
+  .Phone p{
+    font-size: 16px;
+  }
+  .map{
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+  }
+  .mapimg{
+    width: 354px;
+    height: 284px;
+  }
+}
